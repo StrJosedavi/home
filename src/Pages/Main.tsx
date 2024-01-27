@@ -1,8 +1,8 @@
-import { Body, Footer, Header } from './Main.styles';
+import { Body, Footer, Header } from '../styles/Main.styles';
 import {Fragment} from 'react';
 import React from 'react';
 
-function Main(){
+function Main() : JSX.Element{
     return(
         <Fragment>
             <Header id='head-app'>teste header</Header>
