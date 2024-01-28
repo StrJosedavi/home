@@ -1,15 +1,14 @@
-/* eslint-env node */
 module.exports = {
-  env:{
+  env: {
     browser: true,
     es6: true,
     node: true,
   },
   extends: [
-  'eslint:recommended',
-  'plugin:@typescript-eslint/recommended',
-  'plugin:@typescript-eslint/eslint-recommended',
-  'plugin:prettier/recommend'
+    'eslint:recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
   ],
   globals: {
     Atomics: 'readonly',
@@ -21,6 +20,5 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint'],
-  root: true,
   rules: {},
 };
