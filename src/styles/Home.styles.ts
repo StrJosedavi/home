@@ -5,7 +5,7 @@ export const Header = styled.header`
   align-items: center;
 `;
 
-export const Div = styled.div`
+export const Container = styled.div`
   display: flex;
   align-items: center;
 `;

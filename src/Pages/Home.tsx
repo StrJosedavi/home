@@ -1,17 +1,19 @@
-import { Div, Footer, Header, Section } from '../styles/Home.styles';
+import { Container, Footer, Header, Section } from '../styles/Home.styles';
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import NavBar from '../components/navBar';
+import PhotoViewer from '../components/PhotoViewer';
 
 function Main() {
   return (
-    <Div>
+    <Container>
       <Header>
         <NavBar />
       </Header>
 
       <Section>
         <Typography variant="h1"> Apresentação</Typography>
+        <PhotoViewer />
       </Section>
 
       <Section>
@@ -23,7 +25,7 @@ function Main() {
       </Section>
 
       <Footer>FOOTER</Footer>
-    </Div>
+    </Container>
   );
 }
 
