@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
-export const Nav = styled.nav`
-  display: flex;
-  align-items: center;
-`;
+export const Nav = styled.nav``;
 
 export const List = styled.ul`
   display: flex;
@@ -11,11 +8,13 @@ export const List = styled.ul`
 `;
 
 export const Line = styled.li`
-  display: flex;
-  align-items: center;
+  padding-right: 30px;
+  list-style-type: none;
 `;
 
 export const Linker = styled.a`
-  display: flex;
-  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+  text-decoration: none;
 `;
