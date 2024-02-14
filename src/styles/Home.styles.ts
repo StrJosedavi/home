@@ -1,21 +1,16 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
-  display: flex;
-  align-items: center;
+  margin-bottom: 35px;
+  margin-top: 45px;
 `;
 
 export const Container = styled.div`
   display: flex;
   align-items: center;
+  flex-direction: column;
 `;
 
-export const Footer = styled.footer`
-  display: flex;
-  align-items: center;
-`;
+export const Footer = styled.footer``;
 
-export const Section = styled.section`
-  display: flex;
-  align-items: center;
-`;
+export const Section = styled.section``;
