@@ -20,9 +20,9 @@ export const Footer = styled.footer`
 
 export const SectionProfile = styled.section`
   display: grid;
-  width: 240px;
-  height: 50px;
-  margin: 65px 0px 0px 150px;
+  height: 150px;
+  justify-content: center;
+  margin-top: 55px;
 `;
 
 export const SectionSkills = styled.section`

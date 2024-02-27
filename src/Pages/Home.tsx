@@ -38,7 +38,14 @@ function Main() {
       </Apresentation>
 
       <SectionSkills>
-        <Typography variant="h2" style={{ color: '#42446E', fontSize: '35px' }}>
+        <Typography
+          variant="h2"
+          style={{
+            color: '#42446E',
+            fontSize: '35px',
+            textAlign: 'center',
+          }}
+        >
           Conhecimentos
         </Typography>
         <Typography variant="subtitle1" style={{ color: 'white' }}>
@@ -47,7 +54,14 @@ function Main() {
       </SectionSkills>
 
       <SectionProjects>
-        <Typography variant="h2" style={{ color: '#42446E', fontSize: '35px' }}>
+        <Typography
+          variant="h2"
+          style={{
+            color: '#42446E',
+            fontSize: '35px',
+            textAlign: 'center',
+          }}
+        >
           Projetos
         </Typography>
       </SectionProjects>
