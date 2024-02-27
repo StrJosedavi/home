@@ -1,16 +1,37 @@
 import styled from 'styled-components';
 
-export const Header = styled.header`
-  margin-bottom: 35px;
-  margin-top: 45px;
-`;
+export const Header = styled.header``;
 
 export const Container = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
 `;
 
-export const Footer = styled.footer``;
+export const Apresentation = styled.div`
+  display: grid;
+  grid-template-areas: 'section div';
+  margin: 50px 0px 0px 120px;
+`;
 
-export const Section = styled.section``;
+export const Footer = styled.footer`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const SectionProfile = styled.section`
+  display: grid;
+  width: 240px;
+  height: 50px;
+  margin: 65px 0px 0px 150px;
+`;
+
+export const SectionSkills = styled.section`
+  display: grid;
+  justify-content: center;
+  margin-top: 80px;
+`;
+
+export const SectionProjects = styled.section`
+  display: grid;
+  justify-content: center;
+`;

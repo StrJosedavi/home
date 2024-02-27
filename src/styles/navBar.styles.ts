@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
-export const Nav = styled.nav``;
+export const Nav = styled.nav`
+  margin: 45px 0px 35px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 export const List = styled.ul`
   display: flex;

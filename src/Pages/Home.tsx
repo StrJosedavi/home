@@ -1,4 +1,12 @@
-import { Container, Footer, Header, Section } from '../styles/Home.styles';
+import {
+  Apresentation,
+  Container,
+  Footer,
+  Header,
+  SectionProfile,
+  SectionProjects,
+  SectionSkills,
+} from '../styles/Home.styles';
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import NavBar from '../components/navBar';
@@ -11,19 +19,38 @@ function Main() {
         <NavBar />
       </Header>
 
-      <Section>
-        <Typography variant="h1"> Apresentação</Typography>
+      <Apresentation>
+        <SectionProfile>
+          <Typography variant="h2" style={{ color: 'white', fontSize: '40px' }}>
+            Olá👋,
+          </Typography>
+          <Typography variant="h2" style={{ color: 'white', fontSize: '40px' }}>
+            Meu Nome é
+          </Typography>
+          <Typography
+            variant="h2"
+            style={{ color: '#13B0F5', fontSize: '40px' }}
+          >
+            José Davi
+          </Typography>
+        </SectionProfile>
         <PhotoViewer />
-      </Section>
+      </Apresentation>
 
-      <Section>
-        <Typography variant="h2">Conhecimentos</Typography>
-      </Section>
+      <SectionSkills>
+        <Typography variant="h2" style={{ color: '#42446E', fontSize: '35px' }}>
+          Conhecimentos
+        </Typography>
+        <Typography variant="subtitle1" style={{ color: 'white' }}>
+          Tecnologia utilizadas normalmente por mim
+        </Typography>
+      </SectionSkills>
 
-      <Section>
-        <Typography variant="h2">Projetos</Typography>
-      </Section>
-
+      <SectionProjects>
+        <Typography variant="h2" style={{ color: '#42446E', fontSize: '35px' }}>
+          Projetos
+        </Typography>
+      </SectionProjects>
       <Footer>FOOTER</Footer>
     </Container>
   );
