@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter basename="/Portfolio">
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="home" element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
