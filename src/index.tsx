@@ -10,9 +10,9 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
       <Routes>
-        <Route path="/Portfolio/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
