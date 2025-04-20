@@ -17,6 +17,14 @@
     <div class="container-skill">
         <h1 class="title-skill">Conhecimentos</h1>
         <span>Tecnologia utilizadas normalmente por mim</span>
+        <div class="container-skill-icons">  
+            <img src="../assets/csharp-lang.svg" alt="csharp" width="80px" height="80px" />
+            <img src="../assets/language-js.svg" alt="javascript" width="80px" height="80px" />
+            <img src="../assets/logo-git.svg" alt="git" width="80px" height="80px" />
+            <img src="../assets/logo-github.svg" alt="github" width="80px" height="80px" />
+            <img src="../assets/style-css.svg" alt="css" width="80px" height="80px" />
+            <img src="../assets/logo-react.svg" alt="react" width="80px" height="80px" />
+        </div>
     </div>
 
     <div class="container-projects">
@@ -83,5 +91,15 @@
         font-family: 'DM Sans', sans-serif;
         color: #ffffff;
         font-size: 15px;
+    }
+
+    .container-skill-icons {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .container-skill-icons img {
+        margin: 0 30px;
+        transition: transform 0.2s;
     }
 </style>

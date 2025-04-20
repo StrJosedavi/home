@@ -31,6 +31,7 @@
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    margin-top: 30px;
 }
 
 ul.navbar-nav {
