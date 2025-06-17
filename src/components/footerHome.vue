@@ -44,14 +44,27 @@
                 target="_blank"
                 class="text-blue-400 hover:text-blue-300"
               >
-                LinkedIn
+                <div class="flex items-center">
+                  <img 
+                    src="../assets//mini-linkedin.svg" 
+                    alt="WhatsApp" 
+                    class="w-6 h-6 mr-2">
+                  LinkedIn
+                </div>
               </a>
+
               <a 
                 href="https://github.com/StrJosedavi" 
                 target="_blank"
                 class="text-gray-400 hover:text-gray-300"
               >
-                GitHub
+                <div class="flex items-center"> 
+                  <img 
+                  src="../assets/mini-git.svg" 
+                  alt="WhatsApp" 
+                  class="w-6 h-6 mr-2">     
+                  GitHub
+                </div>
               </a>
             </div>
           </div>
