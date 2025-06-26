@@ -46,7 +46,7 @@
               >
                 <div class="flex items-center">
                   <img 
-                    src="../assets/mini-linkedin.svg" 
+                    src="/assets/mini-linkedin.svg" 
                     alt="WhatsApp" 
                     class="w-6 h-6 mr-2">
                   LinkedIn
@@ -60,7 +60,7 @@
               >
                 <div class="flex items-center"> 
                   <img 
-                  src="../assets/mini-git.svg" 
+                  src="/assets/mini-git.svg" 
                   alt="WhatsApp" 
                   class="w-6 h-6 mr-2">     
                   GitHub

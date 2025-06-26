@@ -6,7 +6,7 @@
       <div class="max-w-6xl mx-auto px-4 text-center">
         <div class="w-58 h-58 rounded-full mx-auto mb-8 overflow-hidden">
           <img 
-            src="/src/assets/Photo.jpeg" 
+            src="/assets/Photo.jpeg" 
             alt="Foto de José Davi Fernandes Sobreira" 
             class="w-full h-full object-cover"
           />

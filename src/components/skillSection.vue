@@ -20,17 +20,17 @@ function GetIconBySkill(skill: string) {
     'Testes Manuais': '/assets/computing-keyboard.svg',
     'Testes Automatizados': '/assets/auto-bug.svg',
     'Selenium WebDriver': '/assets/selenium.svg',
-    'C#': '/src/assets/csharp-lang.svg',
-    'JavaScript': '/src/assets/language-js.svg',
-    'Python': '/src/assets/python.svg',
-    'Postman': '/src/assets/postman.svg',
-    'Playwright': '/src/assets/playwright.svg',
-    'GitHub Copilot': '/src/assets/githubcopilot.svg',
-    'Azure DevOps': '/src/assets/azure-devops.svg',
-    'GitHub': '/src/assets/github.svg',
-    'Git': '/src/assets/logo-git.svg',
+    'C#': '/assets/csharp-lang.svg',
+    'JavaScript': '/assets/language-js.svg',
+    'Python': '/assets/python.svg',
+    'Postman': '/assets/postman.svg',
+    'Playwright': '/assets/playwright.svg',
+    'GitHub Copilot': '/assets/githubcopilot.svg',
+    'Azure DevOps': '/assets/azure-devops.svg',
+    'GitHub': '/assets/github.svg',
+    'Git': '/assets/logo-git.svg',
   };
-  return iconMap[skill] || '/src/assets/none.svg'; 
+  return iconMap[skill] || '/assets/none.svg';
 }
 
 </script>
