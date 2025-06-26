@@ -1,19 +1,37 @@
 <script setup lang="ts">
 
 const skills = [
+  'C#',
+  'JavaScript',
+  'Python',
+  'Playwright',
   'Testes Manuais',
   'Testes Automatizados', 
   'Selenium WebDriver',
-  'C#',
   'Postman',
-  'Newman',
-  'API REST',
-  'CI/CD',
   'Azure DevOps',
-  'GitHub Actions',
-  'Scrum',
-  'Azure Test Plans'
+  'Git',
+  'GitHub',
+  'GitHub Copilot'
 ]
+
+function GetIconBySkill(skill: string) {
+  const iconMap: Record<string, string> = {
+    'Testes Manuais': '/src/assets/computing-keyboard.svg',
+    'Testes Automatizados': '/src/assets/auto-bug.svg',
+    'Selenium WebDriver': '/src/assets/selenium.svg',
+    'C#': '/src/assets/csharp-lang.svg',
+    'JavaScript': '/src/assets/language-js.svg',
+    'Python': '/src/assets/python.svg',
+    'Postman': '/src/assets/postman.svg',
+    'Playwright': '/src/assets/playwright.svg',
+    'GitHub Copilot': '/src/assets/githubcopilot.svg',
+    'Azure DevOps': '/src/assets/azure-devops.svg',
+    'GitHub': '/src/assets/github.svg',
+    'Git': '/src/assets/logo-git.svg',
+  };
+  return iconMap[skill] || '/src/assets/none.svg'; 
+}
 
 </script>
 
@@ -31,8 +49,12 @@ const skills = [
             :key="skill"
             class="bg-white rounded-lg p-4 text-center hover:shadow-md transition-shadow"
           >
-            <div class="w-12 h-12 bg-blue-100 rounded-lg mx-auto mb-3 flex items-center justify-center">
-              <span class="text-blue-600 font-bold">✓</span>
+            <div class="w-12 h-12 rounded-lg mx-auto mb-3 flex items-center justify-center">
+              <img 
+                :src="GetIconBySkill(skill)" 
+                alt="Foto de José Davi Fernandes Sobreira" 
+                class="w-full h-full object-cover"
+              />
             </div>
             <h3 class="font-semibold text-gray-900 text-sm">{{ skill }}</h3>
           </div>

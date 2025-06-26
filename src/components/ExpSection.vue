@@ -17,7 +17,7 @@
               <h3 class="text-xl font-bold text-gray-900">Analista de Qualidade</h3>
               <p class="text-lg text-blue-600 font-semibold">EasyCrédito</p>
             </div>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+            <span class="text-blue-800 py-4 text-sm font-medium">
               06/2023 – Atual
             </span>
           </div>
@@ -54,7 +54,7 @@
               <h3 class="text-xl font-bold text-gray-900">Analista de Qualidade</h3>
               <p class="text-lg text-blue-600 font-semibold">Fitbank Pagamentos Eletrônicos</p>
             </div>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+            <span class="text-blue-800 py-4 text-sm font-medium">
               12/2021 – 06/2023
             </span>
           </div>
