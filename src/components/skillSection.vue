@@ -17,9 +17,9 @@ const skills = [
 
 function GetIconBySkill(skill: string) {
   const iconMap: Record<string, string> = {
-    'Testes Manuais': '/src/assets/computing-keyboard.svg',
-    'Testes Automatizados': '/src/assets/auto-bug.svg',
-    'Selenium WebDriver': '/src/assets/selenium.svg',
+    'Testes Manuais': '/assets/computing-keyboard.svg',
+    'Testes Automatizados': '/assets/auto-bug.svg',
+    'Selenium WebDriver': '/assets/selenium.svg',
     'C#': '/src/assets/csharp-lang.svg',
     'JavaScript': '/src/assets/language-js.svg',
     'Python': '/src/assets/python.svg',
