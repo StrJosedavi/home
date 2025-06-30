@@ -61,26 +61,36 @@ function GetIconBySkill(skill: string) {
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Testes & Qualidade -->
           <div class="bg-white rounded-xl p-6 shadow-sm">
             <h3 class="text-lg font-bold text-gray-900 mb-4">🧪 Testes & Qualidade</h3>
             <ul class="space-y-2">
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                Testes Manuais e Automatizados
+                Testes funcionais (Web e Mobile)
               </li>
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                Testes de API REST
+                Testes de APIs REST (Boletos, TED, PIX)
               </li>
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
                 Selenium WebDriver (C#)
               </li>
+              <li class="text-gray-700 flex items-center">
+                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                Playwright (JavaScript)
+              </li>
+              <li class="text-gray-700 flex items-center">
+                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                Planejamento de testes Azure DevOps
+              </li>
             </ul>
           </div>
-          
+
+          <!-- Ferramentas & Tecnologias -->
           <div class="bg-white rounded-xl p-6 shadow-sm">
-            <h3 class="text-lg font-bold text-gray-900 mb-4">⚙️ Ferramentas</h3>
+            <h3 class="text-lg font-bold text-gray-900 mb-4">⚙️ Ferramentas & Tecnologias</h3>
             <ul class="space-y-2">
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
@@ -88,33 +98,47 @@ function GetIconBySkill(skill: string) {
               </li>
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                Azure DevOps
+                Azure DevOps (Test Plans, Pipelines)
               </li>
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                GitHub Actions
+                Git / GitHub
+              </li>
+              <li class="text-gray-700 flex items-center">
+                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                SQL Server / PostgreSQL
+              </li>
+              <li class="text-gray-700 flex items-center">
+                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                Visual Studio Code / Visual Studio
               </li>
             </ul>
           </div>
-          
+
+          <!-- Metodologias & Soft Skills -->
           <div class="bg-white rounded-xl p-6 shadow-sm">
-            <h3 class="text-lg font-bold text-gray-900 mb-4">📋 Metodologias</h3>
+            <h3 class="text-lg font-bold text-gray-900 mb-4">📋 Metodologias & Soft Skills</h3>
             <ul class="space-y-2">
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                Metodologias Ágeis (Scrum)
+                Metodologias Ágeis (Scrum, Kanban)
               </li>
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                CI/CD Pipelines
+                Integração de testes em pipelines CI/CD
               </li>
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                Planejamento de Testes
+                Facilidade para trabalhar
+              </li>
+              <li class="text-gray-700 flex items-center">
+                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                Adaptabilidade e aprendizado rápido
               </li>
             </ul>
           </div>
         </div>
+
       </div>
     </section>
 </template>

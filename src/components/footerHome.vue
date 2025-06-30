@@ -8,8 +8,11 @@
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div class="text-center">
-            <div class="w-12 h-12 bg-blue-600 rounded-lg mx-auto mb-4 flex items-center justify-center">
-              <span class="text-white">📧</span>
+            <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
+              <span class="text-white"><img 
+                    src="/assets/mail.svg" 
+                    alt="WhatsApp" 
+                    class="w-10 h-10"></span>
             </div>
             <h3 class="font-semibold mb-2">Email</h3>
             <a 
@@ -21,21 +24,27 @@
           </div>
           
           <div class="text-center">
-            <div class="w-12 h-12 bg-green-600 rounded-lg mx-auto mb-4 flex items-center justify-center">
-              <span class="text-white">📱</span>
+            <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
+              <span class="text-white"><img 
+                    src="/assets/phone.svg" 
+                    alt="WhatsApp" 
+                    class="w-10 h-10"></span>
             </div>
             <h3 class="font-semibold mb-2">Telefone</h3>
             <a 
               href="tel:(85) 99106-1737"
-              class="text-green-400 hover:text-green-300"
+              class="text-blue-400 hover:text-blue-300"
             >
               (85) 99106-1737
             </a>
           </div>
           
           <div class="text-center">
-            <div class="w-12 h-12 bg-purple-600 rounded-lg mx-auto mb-4 flex items-center justify-center">
-              <span class="text-white">🔗</span>
+            <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
+              <span class="text-white"> <img 
+                    src="/assets/network.svg" 
+                    alt="WhatsApp" 
+                    class="w-10 h-10"></span>
             </div>
             <h3 class="font-semibold mb-2">Redes Sociais</h3>
             <div class="flex justify-center space-x-4">
@@ -46,9 +55,9 @@
               >
                 <div class="flex items-center">
                   <img 
-                    src="/assets/mini-linkedin.svg" 
+                    src="/assets/linkedin-nav.svg" 
                     alt="WhatsApp" 
-                    class="w-6 h-6 mr-2">
+                    class="w-8 h-8 mr-2">
                   LinkedIn
                 </div>
               </a>
@@ -56,13 +65,13 @@
               <a 
                 href="https://github.com/StrJosedavi" 
                 target="_blank"
-                class="text-gray-400 hover:text-gray-300"
+                class="text-blue-400 hover:text-blue-300"
               >
                 <div class="flex items-center"> 
                   <img 
-                  src="/assets/mini-git.svg" 
+                  src="/assets/github-icon-2.svg" 
                   alt="WhatsApp" 
-                  class="w-6 h-6 mr-2">     
+                  class="w-8 h-8 mr-2">     
                   GitHub
                 </div>
               </a>
@@ -71,7 +80,7 @@
         </div>
         
         <div class="border-t border-gray-800 pt-8 text-center">
-          <p class="text-gray-500">
+          <p class="text-white">
             © {{ year }} José Davi Fernandes Sobreira. Todos os direitos reservados.
           </p>
         </div>
