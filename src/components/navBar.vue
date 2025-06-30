@@ -3,12 +3,12 @@
 </script>
 
 <template>
-    <header class="bg-gradient-to-r from-[#1E1E2F] to-gray-700 shadow sticky top-0 z-50">
+    <header class="fixed top-0 w-full bg-gray-900/80 backdrop-blur-sm z-50">
       <nav class="max-w-6xl mx-auto px-4 py-4">
         <div class="flex justify-between items-center">
           <div>
-            <h1 class="text-xl font-bold text-white">José Davi Fernandes Sobreira</h1>
-            <p class="text-sm text-white font-bold">Analista de Qualidade</p>
+            <h1 class="text-white font-bold text-lg">José Davi Fernandes Sobreira</h1>
+            <p class="text-sm font-light text-gray-400">Analista de Qualidade</p>
           </div>
           
           <div class="flex items-center space-x-4">
@@ -19,7 +19,7 @@
               <img 
                 src="/assets/linkedin-nav.svg" 
                 alt="LinkedIn" 
-                class="w-10 h-10"/>
+                class="w-10 h-10 fa-brands fa-linkedin"/>
             </a>
             <a 
               href="https://github.com/StrJosedavi" 

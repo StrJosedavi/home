@@ -36,7 +36,7 @@ function GetIconBySkill(skill: string) {
 </script>
 
 <template>
-<section class="py-20 bg-gray-900 border-t border-gray-800">
+<section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20">
       <div class="max-w-6xl mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="text-3xl font-bold mb-4 text-white">Habilidades Técnicas</h2>
@@ -47,7 +47,7 @@ function GetIconBySkill(skill: string) {
           <div 
             v-for="skill in skills" 
             :key="skill"
-            class="bg-white rounded-lg p-4 text-center hover:shadow-md transition-shadow"
+            class="bg-white rounded-lg p-4 text-center hover:shadow-md transition-shadow transition-all duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-[1.01]"
           >
             <div class="w-12 h-12 rounded-lg mx-auto mb-3 flex items-center justify-center">
               <img 
@@ -62,7 +62,7 @@ function GetIconBySkill(skill: string) {
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <!-- Testes & Qualidade -->
-          <div class="bg-white rounded-xl p-6 shadow-sm">
+          <div class="bg-white rounded-xl p-6 shadow-sm transition-all duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-[1.01]">
             <h3 class="text-lg font-bold text-gray-900 mb-4">🧪 Testes & Qualidade</h3>
             <ul class="space-y-2">
               <li class="text-gray-700 flex items-center">
@@ -89,7 +89,7 @@ function GetIconBySkill(skill: string) {
           </div>
 
           <!-- Ferramentas & Tecnologias -->
-          <div class="bg-white rounded-xl p-6 shadow-sm">
+          <div class="bg-white rounded-xl p-6 shadow-sm transition-all duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-[1.01]">
             <h3 class="text-lg font-bold text-gray-900 mb-4">⚙️ Ferramentas & Tecnologias</h3>
             <ul class="space-y-2">
               <li class="text-gray-700 flex items-center">
@@ -116,7 +116,7 @@ function GetIconBySkill(skill: string) {
           </div>
 
           <!-- Metodologias & Soft Skills -->
-          <div class="bg-white rounded-xl p-6 shadow-sm">
+          <div class="bg-white rounded-xl p-6 shadow-sm transition-all duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-[1.01]">
             <h3 class="text-lg font-bold text-gray-900 mb-4">📋 Metodologias & Soft Skills</h3>
             <ul class="space-y-2">
               <li class="text-gray-700 flex items-center">

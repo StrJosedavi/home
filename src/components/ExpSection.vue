@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <section id="experiencia" class="py-20 bg-gray-900 border-t border-gray-800">
+    <section id="experiencia" class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20">
 
       <!-- First Xp -->
       <div class="max-w-6xl mx-auto px-4">
@@ -11,7 +11,7 @@
           <div class="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </div>
         
-        <div class="bg-gray-50 rounded-xl p-8">
+        <div class="bg-gray-50 rounded-xl p-8 transition-all duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-[1.01]">
           <div class="flex flex-col md:flex-row md:justify-between mb-6">
             <div>
               <h3 class="text-xl font-bold text-gray-900">Analista de Qualidade</h3>
@@ -47,7 +47,7 @@
       </div>
 
       <!-- Second XP -->
-      <div class="max-w-6xl mx-auto px-4 p-20">        
+      <div class="max-w-6xl mx-auto px-4 p-20 transition-all duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-[1.01]">        
         <div class="bg-gray-50 rounded-xl p-8">
           <div class="flex flex-col md:flex-row md:justify-between mb-6">
             <div>
