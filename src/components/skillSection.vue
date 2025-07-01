@@ -27,7 +27,7 @@ function GetIconBySkill(skill: string) {
     'Playwright': '/assets/playwright.svg',
     'GitHub Copilot': '/assets/githubcopilot.svg',
     'Azure DevOps': '/assets/azure-devops.svg',
-    'GitHub': '/assets/github.svg',
+    'GitHub': '/assets/github-2.svg',
     'Git': '/assets/logo-git.svg',
   };
   return iconMap[skill] || '/assets/none.svg';
@@ -129,7 +129,7 @@ function GetIconBySkill(skill: string) {
               </li>
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                Facilidade para trabalhar
+                Facilidade para trabalhar em equipe
               </li>
               <li class="text-gray-700 flex items-center">
                 <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
