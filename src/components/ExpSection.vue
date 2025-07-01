@@ -26,19 +26,19 @@
             <h4 class="text-lg font-semibold text-gray-800 mb-4">Principais Responsabilidades:</h4>
             <ul class="space-y-3">
               <li class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div class="w-1 h-1 bg-green-500 rounded-full mt-2"></div>
                 <span class="text-gray-700">Realização de testes manuais de APIs REST, validando regras de negócio críticas</span>
               </li>
               <li class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div class="w-1 h-1 bg-green-500 rounded-full mt-2"></div>
                 <span class="text-gray-700">Automação de testes E2E com Selenium WebDriver (C#)</span>
               </li>
               <li class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div class="w-1 h-1 bg-green-500 rounded-full mt-2"></div>
                 <span class="text-gray-700">Participação em cerimônias ágeis (refinamento, planejamento, revisão)</span>
               </li>
               <li class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div class="w-1 h-1 bg-green-500 rounded-full mt-2"></div>
                 <span class="text-gray-700">Suporte na implementação de CI/CD com testes automatizados</span>
               </li>
             </ul>
@@ -63,19 +63,19 @@
             <h4 class="text-lg font-semibold text-gray-800 mb-4">Principais Responsabilidades:</h4>
             <ul class="space-y-3">
               <li class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div class="w-1 h-1 bg-green-500 rounded-full mt-2"></div>
                 <span class="text-gray-700">Execução de testes em APIs bancárias (boletos, TED, PIX), com foco em estabilidade e segurança</span>
               </li>
               <li class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div class="w-1 h-1 bg-green-500 rounded-full mt-2"></div>
                 <span class="text-gray-700">Apoio na reestruturação do processo de QA, padronizando documentação e estratégias de teste</span>
               </li>
               <li class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div class="w-1 h-1 bg-green-500 rounded-full mt-2"></div>
                 <span class="text-gray-700">Criação e manutenção de casos de teste no Azure DevOps (Test Cases e Test Plans)</span>
               </li>
               <li class="flex items-start space-x-3">
-                <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div class="w-1 h-1 bg-green-500 rounded-full mt-2"></div>
                 <span class="text-gray-700">Colaboração com desenvolvedores e analistas de negócio para identificação e correção de bugs</span>
               </li>
             </ul>

@@ -26,9 +26,9 @@
               target="_blank"
             >
               <img 
-                src="/assets/github.svg" 
+                src="/assets/github-2.svg" 
                 alt="GitHub" 
-                class="w-10 h-10"/>
+                class="w-10 h-10 rounded-full bg-white overflow-hidden"/>
             </a>
           </div>
         </div>
