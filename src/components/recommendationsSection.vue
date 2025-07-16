@@ -44,6 +44,18 @@ const linkedinUrl = 'https://www.linkedin.com/in/jdavifs/details/recommendations
         <div class="mt-8">
           <a :href="linkedinUrl" target="_blank" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">Ver mais recomendações no LinkedIn</a>
         </div>
+
+        <div class="flex justify-center items-center mt-8">
+            <div class="badge-base LI-profile-badge"
+                 data-locale="pt_BR"
+                 data-size="large"
+                 data-theme="dark"
+                 data-type="HORIZONTAL"
+                 data-vanity="jdavifs"
+                 data-version="v1">
+              <a class="badge-base__link LI-simple-link flex justify-center" href="https://br.linkedin.com/in/jdavifs?trk=profile-badge"></a>    
+          </div>
+        </div>
       </div>
     </section>
 </template>
