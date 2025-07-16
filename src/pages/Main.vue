@@ -9,6 +9,8 @@
 
     <skillSection/>
 
+    <recommendationsSection/>
+
     <footerHome/>
   </div>
 </template>
@@ -19,6 +21,7 @@ import footerHome from '../components/footerHome.vue'
 import skillSection from '../components/skillSection.vue'
 import expSection from '../components/ExpSection.vue'
 import welcomeSection from '../components/WelcomeSection.vue'
+import recommendationsSection from '../components/recommendationsSection.vue'
 import navBar from '../components/navBar.vue'
 
 </script>
