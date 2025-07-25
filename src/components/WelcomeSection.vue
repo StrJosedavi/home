@@ -22,11 +22,9 @@
         
         <div class="max-w-4xl mx-auto mb-10">
           <p class="text-gray-400 text-base max-w-2xl mx-auto mt-4 leading-7">
-            Profissional apaixonado por qualidade de software, com mais de 4 anos de experiência garantindo
-            a excelência de sistemas web e mobile — especialmente no setor financeiro. 
-            Tenho uma atuação sólida tanto em testes manuais quanto automatizados, com forte vivência em validação de APIs,
-            testes de microserviços e integração contínua (CI/CD). Ao longo da minha trajetória,
-             contribuí para tornar os produtos mais confiáveis, otimizando o tempo de testes e colaborando ativamente com times ágeis e multifuncionais.
+            Profissional com mais de 4 anos de experiência em qualidade de software, atuando na validação de sistemas web e mobile, com foco no setor financeiro.
+            Possuo experiência prática em testes manuais e automatizados, com forte atuação em testes de APIs, microserviços e integração contínua (CI/CD).
+            Tenho contribuído diretamente para a confiabilidade de produtos, otimizando processos de teste e colaborando com times ágeis e multidisciplinares.
           </p>
         </div>
         
