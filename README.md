@@ -38,6 +38,41 @@ Exibir minhas principais experiências, habilidades, projetos, recomendações d
 - Tailwind CSS
 - TypeScript
 
+
+## Testes Automatizados (E2E)
+
+Este projeto utiliza o Playwright para testes automatizados de ponta a ponta.
+
+### Como rodar os testes
+
+1. Instale as dependências do projeto (caso ainda não tenha feito):
+   ```bash
+   npm install
+   ```
+
+2. Instale os browsers do Playwright:
+   ```bash
+   npx playwright install
+   ```
+
+3. Execute os testes:
+   ```bash
+   npx playwright test
+   ```
+   ou, se preferir, utilize os scripts:
+   
+   sem UI
+   ```bash
+   npm run test:e2e
+   ```
+
+   com UI
+   ```bash
+   npm run test:ui
+   ```
+
+Os relatórios dos testes serão gerados na pasta `playwright-report/`.
+
 ## Contato
 
 Para saber mais, acesse meu [LinkedIn](https://www.linkedin.com/in/jdavifs/) ou entre em contato pelo e-mail disponível no site.

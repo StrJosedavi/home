@@ -4,7 +4,7 @@
 
 <template>
     <header class="fixed top-0 w-full bg-gray-900/80 backdrop-blur-sm z-50">
-      <nav class="max-w-6xl mx-auto px-4 py-4">
+      <nav id="navBar" class="max-w-6xl mx-auto px-4 py-4">
         <div class="flex justify-between items-center">
           <div>
             <h1 class="text-white font-bold text-lg">José Davi Fernandes Sobreira</h1>

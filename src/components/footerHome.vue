@@ -1,5 +1,5 @@
 <template>
-<footer class="bg-gray-900 text-white border-t border-gray-800 pt-8 py-16">
+<footer id="footer" class="bg-gray-900 text-white border-t border-gray-800 pt-8 py-16">
       <div class="max-w-6xl mx-auto px-4">
         <div class="text-center mb-12">
           <h2 class="text-3xl font-bold mb-4">Vamos Conversar?</h2>

@@ -36,10 +36,10 @@ function GetIconBySkill(skill: string) {
 </script>
 
 <template>
-<section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20">
+<section id="skills" class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20">
       <div class="max-w-6xl mx-auto px-4">
         <div class="text-center mb-16">
-          <h2 class="text-3xl font-bold mb-4 text-white">Habilidades Técnicas</h2>
+          <h2 id="titleSectionSkill" class="text-3xl font-bold mb-4 text-white">Habilidades Técnicas</h2>
           <div class="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </div>
         

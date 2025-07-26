@@ -7,7 +7,7 @@
       <!-- First Xp -->
       <div class="max-w-6xl mx-auto px-4">
         <div class="text-center mb-16">
-          <h2 class="text-3xl font-bold text-white mb-4">Experiência Profissional</h2>
+          <h2 id="titleSectionExp" class="text-3xl font-bold text-white mb-4">Experiência Profissional</h2>
           <div class="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </div>
         

@@ -20,12 +20,12 @@ const linkedinUrl = 'https://www.linkedin.com/in/jdavifs/details/recommendations
 </script>
 
 <template>
-     <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-30">
+     <section id="recommendations" class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-30">
       
       <div class="max-w-6xl mx-auto px-4 text-center">
         
         <div class="text-center mb-16">
-          <h2 class="text-3xl font-bold text-white mb-4">Recomendações</h2>
+          <h2 id="titleSectionRecommendations" class="text-3xl font-bold text-white mb-4">Recomendações</h2>
           <div class="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </div>
 

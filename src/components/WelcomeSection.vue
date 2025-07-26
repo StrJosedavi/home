@@ -2,7 +2,7 @@
 </script>
 
 <template>
-     <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-30">
+     <section id="welcome" class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-30">
       
       <div class="max-w-6xl mx-auto px-4 text-center">
         <div class="w-58 h-58 rounded-full mx-auto mb-8 overflow-hidden">
