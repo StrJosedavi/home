@@ -2,13 +2,25 @@ import { Page, Locator, expect } from '@playwright/test';
 
 export class HomePage {
   readonly page: Page;
+  readonly navBar: Locator;
+  readonly welcomeSection: Locator;
+  readonly expSection: Locator;
+  readonly skillSection: Locator;
   readonly recommendationsSection: Locator;
-  readonly recommendationExample: Locator;
+  readonly footerSection: Locator;
+  readonly recommendation: Locator;
+  readonly recommendationTitle: Locator;
 
   constructor(page: Page) {
     this.page = page;
-    this.recommendationsSection = page.getByText('Recomendações');
-    this.recommendationExample = page.getByText(/Fitbank|Júnior Veras|Pedro Henrique/);
+    this.navBar = page.locator('#navBar');
+    this.welcomeSection = page.locator('#welcome');
+    this.expSection = page.locator('#exp');
+    this.skillSection = page.locator('#skills');
+    this.recommendationsSection = page.locator('#recommendations');
+    this.footerSection = page.locator('#footer');
+    this.recommendationTitle = page.getByText('Recomendações');
+    this.recommendation = page.getByText(/Fitbank|Júnior Veras|Pedro Henrique/);
   }
 
   // Adaptar método para usar valor do arquivo .env
@@ -21,11 +33,11 @@ export class HomePage {
   }
 
   async expectRecommendationsVisible() {
-    await expect(this.recommendationsSection).toBeVisible();
+    await expect(this.recommendationTitle).toBeVisible();
   }
 
   async expectRecommendationExampleVisible() {
-    await expect(this.recommendationExample).toBeVisible();
+    await expect(this.recommendation).toBeVisible();
   }
   
   async expectNavBarTexts() {

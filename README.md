@@ -44,6 +44,7 @@ Exibir minhas principais experiências, habilidades, projetos, recomendações d
 Este projeto utiliza o Playwright para testes automatizados de ponta a ponta.
 
 ### Como rodar os testes
+Obs:. Necessário que a aplicação esteja rodando localmente, para casos onde a aplicação ja está em produção os testes serão executados depois que a aplicação já estiver rodando.
 
 1. Instale as dependências do projeto (caso ainda não tenha feito):
    ```bash
@@ -53,6 +54,10 @@ Este projeto utiliza o Playwright para testes automatizados de ponta a ponta.
 2. Instale os browsers do Playwright:
    ```bash
    npx playwright install
+   ```
+   ou, se preferir, utilize os scripts:
+   ```bash
+   npm run test:browsers
    ```
 
 3. Execute os testes:

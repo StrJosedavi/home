@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <section id="experiencia" class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20">
+    <section id="exp" class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20">
 
       <!-- First Xp -->
       <div class="max-w-6xl mx-auto px-4">
