@@ -1,11 +1,5 @@
 import { test } from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
-
-const devices = [
-  { name: 'desktop', viewport: { width: 1280, height: 800 } },
-  { name: 'tablet', viewport: { width: 768, height: 1024 } },
-  { name: 'mobile', viewport: { width: 375, height: 667 } },
-];
+import { HomePage, devices } from '../pages/HomePage';
 
 for (const device of devices) {
   test(`should render all main sections on ${device.name}`, async ({ page }) => {
